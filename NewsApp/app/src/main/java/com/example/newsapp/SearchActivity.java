@@ -46,7 +46,7 @@ public class SearchActivity extends AppCompatActivity {
     }
 
     private void performSearch(String query) {
-        ApiUtilities.getApiInterface().searchNews(query, 100, "b5453742409f44f0a26995bb4ccc18ac")
+        ApiUtilities.getApiInterface().searchNews(query, 100, "api key")
                 .enqueue(new Callback<mainNews>() {
                     @Override
                     public void onResponse(Call<mainNews> call, Response<mainNews> response) {

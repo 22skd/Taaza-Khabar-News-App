@@ -18,7 +18,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class HealthFragment extends Fragment {
-    String api="b5453742409f44f0a26995bb4ccc18ac";
+    String api="enter the api key";
     ArrayList<ModelClass> modelClassArrayList;
     Adapter adapter;
     String country="in";

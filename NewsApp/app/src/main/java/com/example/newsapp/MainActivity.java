@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     PagerAdapter pagerAdapter;
     Toolbar mtoolbar;
 
-    String api = "b5453742409f44f0a26995bb4ccc18ac";
+    String api = "api key";
     private ImageButton searchButton;
     DrawerLayout drawerLayout;
     NavigationView navigationView;

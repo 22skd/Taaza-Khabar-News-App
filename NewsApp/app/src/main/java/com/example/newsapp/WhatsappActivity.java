@@ -105,7 +105,7 @@ public class WhatsappActivity extends AppCompatActivity {
 
         String country = "in";
         int pageSize = 1;
-        String apiKey = "b5453742409f44f0a26995bb4ccc18ac";
+        String apiKey = "enter the api key";
 
         ApiUtilities.getApiInterface().getCategoryNews(country, category, pageSize, apiKey).enqueue(new Callback<mainNews>() {
             @Override
