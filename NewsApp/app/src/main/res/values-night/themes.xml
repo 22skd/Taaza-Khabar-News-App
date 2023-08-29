@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Material3.DayNight.NoActionBar" parent="Theme.Material3.DayNight">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="AppTheme.Dark" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:windowBackground">@color/dark_background</item>
+        <item name="android:textColorPrimary">@color/dark_text_primary</item>
+        <item name="android:textColorSecondary">@color/dark_text_secondary</item>
+        <item name="android:colorControlNormal">@color/dark_control_normal</item>
+        <item name="android:colorControlActivated">@color/dark_control_activated</item>
+        <item name="android:colorControlHighlight">@color/dark_control_highlight</item>
+        <item name="android:colorButtonNormal">@color/dark_button_normal</item>
+        <item name="android:colorBackground">@color/dark_background</item>
+        <!-- Add more attributes for dark mode styling -->
+    </style>
+
+</resources>

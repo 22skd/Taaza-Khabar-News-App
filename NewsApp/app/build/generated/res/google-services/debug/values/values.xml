@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">941977464368-o9t1vecqqfu9gqotsmumns0ojnq40js0.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">941977464368</string>
+    <string name="google_api_key" translatable="false">AIzaSyDKZuNqKnNtQ_GSiLm8qBeQr51r3bJXlZk</string>
+    <string name="google_app_id" translatable="false">1:941977464368:android:b5b6b814792679150947f5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDKZuNqKnNtQ_GSiLm8qBeQr51r3bJXlZk</string>
+    <string name="google_storage_bucket" translatable="false">taaza-khabar-d1504.appspot.com</string>
+    <string name="project_id" translatable="false">taaza-khabar-d1504</string>
+</resources>

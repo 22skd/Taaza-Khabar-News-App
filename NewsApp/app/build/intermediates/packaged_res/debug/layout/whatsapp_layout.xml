@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logonews"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_margin="16dp" />
+
+    <!-- WhatsApp number label -->
+    <TextView
+        android:id="@+id/whatsapp_number_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_logo"
+        android:text="Enter your WhatsApp number:"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
+
+    <!-- WhatsApp number EditText -->
+    <EditText
+        android:id="@+id/whatsapp_number_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/whatsapp_number_label"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:hint="Enter your number"/>
+
+    <!-- Category selection -->
+    <TextView
+        android:id="@+id/category_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select categories:"
+        android:layout_below="@id/whatsapp_number_edittext"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
+
+    <!-- Category checkboxes -->
+    <CheckBox
+        android:id="@+id/science_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Science"
+        android:layout_below="@id/category_label"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp" />
+
+    <CheckBox
+        android:id="@+id/health_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Health"
+        android:layout_below="@id/science_checkbox"
+        android:layout_marginStart="16dp" />
+
+    <CheckBox
+        android:id="@+id/technology_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Technology"
+        android:layout_below="@id/health_checkbox"
+        android:layout_marginStart="16dp" />
+
+    <CheckBox
+        android:id="@+id/entertainment_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entertainment"
+        android:layout_below="@id/technology_checkbox"
+        android:layout_marginStart="16dp" />
+
+    <CheckBox
+        android:id="@+id/sports_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sports"
+        android:layout_below="@id/entertainment_checkbox"
+        android:layout_marginStart="16dp" />
+
+    <!-- Apply button -->
+    <Button
+        android:id="@+id/apply_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apply"
+        android:layout_below="@id/sports_checkbox"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
+
+    <!-- Back button -->
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@id/sports_checkbox"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp" />
+
+</RelativeLayout>
